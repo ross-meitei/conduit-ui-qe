@@ -1,0 +1,21 @@
+# Node / Playwright
+node_modules/
+test-results/
+playwright-report/
+screenshots/
+
+# Allure
+allure-results/
+allure-report/
+
+# Local env / secrets + saved auth state
+.env
+.env.*
+!.env.example
+config/auth.local.json
+# Local tooling (not part of the repo)
+.appqe/
+appqe.yml
+CLAUDE.md
+QE.md
+.claude/
